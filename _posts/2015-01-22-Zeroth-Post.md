@@ -7,4 +7,6 @@ Always heard that it'll be good for a developer to maintain a blog so I've final
   
 Main posts will be about technology, chronicling my journey as a dev and, if you are lucky, rants. Also, I will most likely use this site as a testbed for learning web stuff so don't get too attached to the layouts and design.  
   
-Please bear with the ugliness and placeholders while I take my own sweet time to update everything :)  ` - ksami`
+Please bear with the ugliness and placeholders while I take my own sweet time to update everything :)
+
+<br><br>` - ksami`
