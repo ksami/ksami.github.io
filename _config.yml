@@ -21,13 +21,13 @@ footer-links:
   email: ksami.ihide@gmail.com
   facebook: 
   flickr: 
-  github: github.com/ksami
+  github: ksami
   instagram: 
   linkedin: 
   pinterest: 
-  rss: rss # just type anything here for a working RSS icon, make sure you set the "url" above!
+  rss: rss # just type anything here for a working RSS icon, make sure you set the "url" below!
   twitter:
-  stackoverflow: http://stackoverflow.com/users/4469613/ksami # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  stackoverflow: users/4469613/ksami # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 
 # Your disqus shortname, entering this will enable commenting on posts
 disqus: 
