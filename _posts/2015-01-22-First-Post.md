@@ -26,7 +26,6 @@ Credits to [Markdown Cheatsheet]
 - [Links](#links)
 - [Images](#images)
 - [Code](#code)
-- [Tables](#tables)
 - [Blockquote](#blockquote)
 - [Horizontal Rules](#horizontalrules)
 - [Line Breaks](#linebreaks)
@@ -139,20 +138,6 @@ console.log(string);
     //code block using 4 spaces indentation
     alert(1);
 
-
-#### <a name="tables"></a>Tables
-
-```
-|Colons|set|alignment|
-|---|:---:|---:|
-|1|2|3|
-|4|5|6|
-```
-
-|Colons|set|alignment|
-|---|:---:|---:|
-|1|2|3|
-|4|5|6|
 
 
 #### <a name="blockquote"></a>Blockquote
