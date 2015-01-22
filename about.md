@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Student
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself. 
+Really hardworking student
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[ksami.ihide@gmail.com](ksami.ihide@gmail.com)
