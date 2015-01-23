@@ -8,7 +8,7 @@ Student
 
 ### More Information
 
-Really hardworking student
+NUS Computer Engineering Year 7/2
 
 ### Contact me
 
