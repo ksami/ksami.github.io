@@ -1,6 +1,6 @@
 ---
 layout: post
-title: posts[1] = "First Post - Credits";
+title: posts[1] = "First Post - Markdown";
 tags: credits markdown
 ---
 First post! Welcome reader!
