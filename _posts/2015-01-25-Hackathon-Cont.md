@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hackathon Cont.
-tags: programming hackathon hacknroll2015
+tags: [programming, hackathon, hacknroll2015]
 ---
 > Blue sky, white clouds, sunny day; the usual.
 > 
@@ -25,4 +25,3 @@ tags: programming hackathon hacknroll2015
 
 It was still fun; learned alot, got sponsor swag, free food, what's not to like about it?
 
-<br><br>`- ksami`

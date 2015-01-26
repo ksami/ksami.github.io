@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ArchLinux
-tags: Linux Arch VM
+tags: [Linux, Arch, VM]
 ---
 
 I recently set up a Virtual Machine running ArchLinux using VirtualBox on my Windows 8 laptop.
@@ -20,5 +20,3 @@ Works pretty well so far and looks, well, pretty.
 
 If you are interested in my config files they're over [here](https://github.com/ksami/dotfiles).  
 The guide I followed is [here](http://dwheelerau.com/2014/07/25/install-arch-linux-on-virtualbox-the-nuts-and-bolts-pt1/).
-
-<br><br>`- ksami`

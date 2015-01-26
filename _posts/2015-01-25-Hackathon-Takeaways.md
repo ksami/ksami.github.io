@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hackathon Takeaways
-tags: programming hackathon hacknroll2015
+tags: [programming, hackathon, hacknroll2015]
 ---
 
 Notes for anyone who wants to go for a hackathon (and for my future reference...):
@@ -25,4 +25,3 @@ Notes for anyone who wants to go for a hackathon (and for my future reference...
 
 Reference: ksami, 2-time participant and fail-to-submit-er of Hack&Roll
 
-<br><br>`- ksami`

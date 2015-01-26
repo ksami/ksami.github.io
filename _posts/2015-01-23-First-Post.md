@@ -1,7 +1,7 @@
 ---
 layout: post
 title: posts[1] = "First Post - Markdown";
-tags: credits markdown
+tags: [credits, markdown]
 ---
 First post! Welcome reader!
 (I love stories which break the fourth wall and so will be pathetically and haphazardly attempting to do this every now and then)  
@@ -182,7 +182,6 @@ ak with two spaces at the end
 I have tried to keep it as short as possible only including the most frequently used syntax.
 Any other details can be found at [Markdown Cheatsheet] or simply searching for __Markdown Syntax__.
 
-<br><br>` - ksami`
 
 [Jekyll]: http://github.com/jekyll/jekyll
 [Jekyll Now]: http://github.com/barryclark/jekyll-now
