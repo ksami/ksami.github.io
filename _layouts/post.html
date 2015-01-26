@@ -14,7 +14,7 @@ layout: default
   </div>
 
   <div class="tags">
-    {{ page.tags }}
+    <i>tags</i>: {{ page.tags | split:' ' | sort }}
   </div>
 
   {% include disqus.html disqus_identifier=page.disqus_identifier %}
