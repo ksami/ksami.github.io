@@ -10,39 +10,39 @@ ___TL;DR___: Code at [bottom](#bottom) of post.
 
 First, begin by creating an unordered list `<ul>` element to store all the messages.  
 ```
-<ul id="messages"></ul>
+    <ul id="messages"></ul>
 ```
 
 A CSS rule for the list can be added to take away the bullet points shown on each list item `<li>`.
 ```
-<style type="text/css">
-  #messages {
-    /* Specify type of bullet point */
-    list-style-type: none;
+    <style type="text/css">
+      #messages {
+        /* Specify type of bullet point */
+        list-style-type: none;
 
-    /* Un-indent list items */
-    padding-left: 0;
+        /* Un-indent list items */
+        padding-left: 0;
 
-    /* Set height of list to 4*font-size */
-    height: 4em;
+        /* Set height of list to 4*font-size */
+        height: 4em;
 
-    /* Force scrolling when contents in this element exceed its boundaries */
-    overflow: auto;
-  }  
-</style>
+        /* Force scrolling when contents in this element exceed its boundaries */
+        overflow: auto;
+      }  
+    </style>
 ```
 
 Then create the `<input>` textbox and containing `<form>`.
 ```
-<form id="input">
-  <input id="userInput" />
-</form>
+    <form id="input">
+      <input id="userInput" />
+    </form>
 ```
 
 Using the insanely popular JQuery library for javascript, get the text keyed in by the user, create an `<li>` element and append it to the previously created `<ul>`.
-```javascript
-// Include this somewhere before the following script
-<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+```
+    <!-- Include this somewhere before the following script -->
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 ```
 
 ```javascript
@@ -52,7 +52,7 @@ Using the insanely popular JQuery library for javascript, get the text keyed in 
     var text = $("#userInput").val();
 
     // Add a new <li> element with the contents of text
-    $("#messages").append("<li>" + text + "</li>");
+    $('#messages').append($('<li>').text('> '+ text));
 
     // Clear input textbox when done
     $("#userInput").val("");
@@ -163,7 +163,7 @@ All the code used is put together and included below.
     var text = $("#userInput").val();
 
     // Add a new <li> element with the contents of text
-    $("#messages").append("<li>" + text + "</li>");
+    $('#messages').append($('<li>').text('> '+ text));
 
     // If the number of <li> elements is more than buffer * 2
     if( $("#messages li").length >= buffer*2) {
@@ -241,7 +241,7 @@ Try it for yourself here. This is the exact code shown above. Enter a few (>6) m
     var text = $("#userInput").val();
 
     // Add a new <li> element with the contents of text
-    $("#messages").append("<li>" + text + "</li>");
+    $('#messages').append($('<li>').text('> '+ text));
 
     // If the number of <li> elements is more than buffer * 2
     if( $("#messages li").length >= buffer*2) {
