@@ -9,12 +9,12 @@ One of the most important features in a multi-user environment is the ability to
 ___TL;DR___: Code at [bottom](#bottom) of post.
 
 First, begin by creating an unordered list `<ul>` element to store all the messages.  
-```html
+```
 <ul id="messages"></ul>
 ```
 
 A CSS rule for the list can be added to take away the bullet points shown on each list item `<li>`.
-```css
+```
 <style type="text/css">
   #messages {
     /* Specify type of bullet point */
@@ -33,7 +33,7 @@ A CSS rule for the list can be added to take away the bullet points shown on eac
 ```
 
 Then create the `<input>` textbox and containing `<form>`.
-```html
+```
 <form id="input">
   <input id="userInput" />
 </form>
