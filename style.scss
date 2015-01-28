@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background: $lightOrange;
+	background: $lightBlueGray;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -291,6 +291,10 @@ footer {
 
 
 // User-added
+code {
+  background-color: $lightGray;
+}
+
 .date {
   text-align: right;
 }
