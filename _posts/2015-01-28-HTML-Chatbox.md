@@ -10,43 +10,43 @@ ___TL;DR___: Code at [bottom](#bottom) of post.
 
 First, begin by creating an unordered list `<ul>` element to store all the messages.
 
-```
-    <ul id="messages"></ul>
+```html
+<ul id="messages"></ul>
 ```
 
 A CSS rule for the list can be added to take away the bullet points shown on each list item `<li>`.
 
-```
-    <style type="text/css">
-      #messages {
-        /* Specify type of bullet point */
-        list-style-type: none;
+```css
+<style type="text/css">
+  #messages {
+    /* Specify type of bullet point */
+    list-style-type: none;
 
-        /* Un-indent list items */
-        padding-left: 0;
+    /* Un-indent list items */
+    padding-left: 0;
 
-        /* Set height of list to 4*font-size */
-        height: 4em;
+    /* Set height of list to 4*font-size */
+    height: 4em;
 
-        /* Force scrolling when contents in this element exceed its boundaries */
-        overflow: auto;
-      }  
-    </style>
+    /* Force scrolling when contents in this element exceed its boundaries */
+    overflow: auto;
+  }  
+</style>
 ```
 
 Then create the `<input>` textbox and containing `<form>`.
 
-```
-    <form id="input">
-      <input id="userInput" />
-    </form>
+```html
+<form id="input">
+  <input id="userInput" />
+</form>
 ```
 
-Using the insanely popular JQuery library for javascript, get the text keyed in by the user, create an `<li>` element and append it to the previously created `<ul>`.
+Using the insanely popular JQuery library for javascript, get the text keyed in by the user, create an `<li>` element and append it to the previously created `<ul>`. An important point to note is to use the JQuery method `text()` to set the text in the newly created `<li>` element. This would escape any HTML input to prevent JavaScript/HTML injection, a gateway to [Cross-Site Scripting (XSS)](http://en.wikipedia.org/wiki/Cross-site_scripting) attacks.
 
-```
-    <!-- Include this somewhere before the following script -->
-    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+```html
+<!-- Include this somewhere before the following script -->
+<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 ```
 
 ```javascript
