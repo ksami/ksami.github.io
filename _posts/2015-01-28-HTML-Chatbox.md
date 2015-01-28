@@ -6,7 +6,7 @@ tags: [muddy, programming, javascript, JQuery]
 
 One of the most important features in a multi-user environment is the ability to communicate with other users. Implementing a chat box in html using javascript isn't very difficult.
 
-___TL;DR___: Code at [bottom](#bottom) of post.
+___TL;DR___: Code at [bottom](#bottom) of post. [Demo](#demo) below the bottom.
 
 First, begin by creating an unordered list `<ul>` element to store all the messages.
 
@@ -108,10 +108,9 @@ The code below waits till the number of `<li>` elements exceed 2 times the speci
 ```
 
 ###### <a name="bottom"></a>Bottom
-All the code used is put together and included below.
+All the code used is put together and included on the page for the [demo](#demo).
 
-```
-{% highlight css %}
+```css
 <!--CSS-->
 
 <style type="text/css">
@@ -129,10 +128,9 @@ All the code used is put together and included below.
     overflow: auto;
   }  
 </style>
-{% endhighlight %}
+```
 
-
-{% highlight html %}
+```html
 <!--HTML-->
 
 <ul id="messages"></ul>
@@ -140,10 +138,9 @@ All the code used is put together and included below.
 <form id="input">
   <input id="userInput" />
 </form>
-{% endhighlight %}
+```
 
-
-{% highlight javascript %}
+```javascript
 <!--Scripts-->
 
 <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
@@ -189,10 +186,9 @@ All the code used is put together and included below.
     $("#userInput").val("");
   }
 </script>
-{% endhighlight %}
-
 ```
 
+###### <a name="demo"></a>Demo
 Try it for yourself here. This is the exact code shown above. Enter a few (>6) messages into the textbox below.
 
 
