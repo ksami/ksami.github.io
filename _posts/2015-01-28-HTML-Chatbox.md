@@ -110,7 +110,7 @@ The code below waits till the number of `<li>` elements exceed 2 times the speci
 ###### <a name="bottom"></a>Bottom
 All the code used is put together and included below.
 
-```
+```html, javascript
 
 <!--CSS-->
 
