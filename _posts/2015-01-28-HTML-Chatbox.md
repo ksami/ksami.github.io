@@ -110,8 +110,8 @@ The code below waits till the number of `<li>` elements exceed 2 times the speci
 ###### <a name="bottom"></a>Bottom
 All the code used is put together and included below.
 
-```html, javascript
-
+```
+{% highlight css %}
 <!--CSS-->
 
 <style type="text/css">
@@ -129,8 +129,10 @@ All the code used is put together and included below.
     overflow: auto;
   }  
 </style>
+{% endhighlight %}
 
 
+{% highlight html %}
 <!--HTML-->
 
 <ul id="messages"></ul>
@@ -138,8 +140,10 @@ All the code used is put together and included below.
 <form id="input">
   <input id="userInput" />
 </form>
+{% endhighlight %}
 
 
+{% highlight javascript %}
 <!--Scripts-->
 
 <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
@@ -185,10 +189,12 @@ All the code used is put together and included below.
     $("#userInput").val("");
   }
 </script>
+{% endhighlight %}
 
 ```
 
 Try it for yourself here. This is the exact code shown above. Enter a few (>6) messages into the textbox below.
+
 
 <!--CSS-->
 
