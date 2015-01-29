@@ -23,15 +23,15 @@ It is rendered in HTML as a `<div>` tag with a class of `kineticjs-content`.
 
 #### Layers
 Layers hold one or more elements and have the following properties:  
-<a name="1"></a>1. Stacking on top of one another
-<a name="2"></a>2. Grouping elements on the same layer
-<a name="3"></a>3. Changes affecting one layer do not affect the other layers
+1. Stacking on top of one another
+2. Grouping elements on the same layer
+3. Changes affecting one layer do not affect the other layers
 
-[Property 1](#1) is useful in cases such as having a character on top of a background. The background would logically be underneath the character and not covering the character.
+Property 1 is useful in cases such as having a character on top of a background. The background would logically be underneath the character and not covering the character.
 
-[Property 2](#2) means that changes which target the layer affect all the elements on that layer. For example, moving the layer towards the right would also move all elements on that layer.
+Property 2 means that changes which target the layer affect all the elements on that layer. For example, moving the layer towards the right would also move all elements on that layer.
 
-[Property 3](#3) could be said to be implied from Property 2 but I feel that it should be highlighted. Any changes made to say, layer 1, would not affect layer 2. I don't know how else I can elaborate this.
+Property 3 could be said to be implied from Property 2 but I feel that it should be highlighted. Any changes made to say, layer 1, would not affect layer 2. I don't know how else I can elaborate this.
 
 #### Elements
 So far, I've used the Image, Sprite, Line and Rect elements which create an element of its namesake. Sprites are especially useful if you already have frames of an animation and want to quickly animate it. Other elements can be found in the documentation from [AgaveStorm] and shall be left as an exercise for the reader to discover them.
