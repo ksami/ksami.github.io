@@ -4,7 +4,7 @@ title: HTML5 Canvas Focus
 tags: [muddy, HTML5, canvas, javascript, jquery, KineticJS]
 ---
 
-Apparently the `<canvas>` element cannot acquire focus which, when trying to capture keyboard events in [KineticJS](http://kineticjs.com) makes it impossible. KineticJS, by the way, only supports the following events, according to its [documentation](http://agavestorm.com/kineticjs/index.html):  
+Apparently the HTML5 `canvas` element cannot acquire focus which, when trying to capture keyboard events in [KineticJS](http://kineticjs.com) makes it impossible. KineticJS, by the way, only supports the following events, according to its [documentation](http://agavestorm.com/kineticjs/index.html):  
 > KineticJS supports mouseover, mousemove, mouseout, mouseenter, mouseleave, mousedown, mouseup, click, dblclick, touchstart, touchmove, touchend, tap, dbltap, dragstart, dragmove, and dragend events.
 >
 > Kinetic Stage supports contentMouseover, contentMousemove, contentMouseout, contentMousedown, contentMouseup, contentClick, contentDblclick, contentTouchstart, contentTouchmove, contentTouchend, contentTap, and contentDblTap.
