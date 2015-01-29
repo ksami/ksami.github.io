@@ -60,6 +60,6 @@ So far, I've used the Image, Sprite, Line and Rect elements which create an elem
 
 
 
-[KineticJS](http://kineticjs.com/)
-[StackOverflow](https://stackoverflow.com/)
-[AgaveStorm](http://agavestorm.com/kineticjs/index.html)
+[KineticJS]: http://kineticjs.com/
+[StackOverflow]: https://stackoverflow.com/
+[AgaveStorm]: http://agavestorm.com/kineticjs/index.html
