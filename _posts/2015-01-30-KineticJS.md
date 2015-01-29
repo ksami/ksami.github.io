@@ -19,7 +19,7 @@ The structure of KineticJS is actually quite logical and easy to visualise. Ther
 #### Stage
 The stage is the container holding all these layers. Layers have to be explicitly added to the stage using `stage.add(layer)`.
 
-It is rendered in HTML as a `<div>` tag with a class of `kineticjs-content`.
+It is rendered in HTML as a `<div>` element with a class of `kineticjs-content`.
 
 #### Layers
 Layers hold one or more elements and have the following properties:  
@@ -32,6 +32,8 @@ Property 1 is useful in cases such as having a character on top of a background.
 Property 2 means that changes which target the layer affect all the elements on that layer. For example, moving the layer towards the right would also move all elements on that layer.
 
 Property 3 could be said to be implied from Property 2 but I feel that it should be highlighted. Any changes made to say, layer 1, would not affect layer 2. I don't know how else I can elaborate this.
+
+Layers are rendered in HTML as `<canvas>` elements, each layer a separate `<canvas>`.
 
 #### Elements
 So far, I've used the Image, Sprite, Line and Rect elements which create an element of its namesake. Sprites are especially useful if you already have frames of an animation and want to quickly animate it. Other elements can be found in the documentation from [AgaveStorm] and shall be left as an exercise for the reader to discover them.
