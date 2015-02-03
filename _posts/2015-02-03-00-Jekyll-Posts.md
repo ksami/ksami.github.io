@@ -4,6 +4,8 @@ title: Jekyll Post Sorting
 tags: [Jekyll]
 ---
 
+___Edit:___ I've realised that because of me changing the filenames to include an extra serial number, the URLs of the post now also include the serial number. Perhaps there is more magic than I thought. Shall update this post when I find the fix for this.
+
 Following the [tutorial](https://github.com/ksami/ksami.github.io/blob/master/README.md/) for setting up Jekyll Now, I named the files for each of my posts using the format year-month-day-title.md. Automagically, this blog would show posts sorted by date.
 
 However, there was this annoyance where if you wrote more than 1 post in a day, Jekyll would not sort the posts by time. This resulted in some messed up post order, as some of you may have previously seen on this blog.
