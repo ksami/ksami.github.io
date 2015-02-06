@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2015-01-23 05:00:00
 title: ArchLinux
 tags: [Linux, Arch, VM]
 ---

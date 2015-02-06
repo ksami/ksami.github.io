@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2015-01-25 17:00:00
 title: Hackathon Takeaways
 tags: [programming, hackathon, hacknroll2015]
 ---

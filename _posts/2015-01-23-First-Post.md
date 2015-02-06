@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2015-01-23 01:00:00
 title: posts[1] = "First Post - Markdown";
 tags: [credits, markdown]
 ---

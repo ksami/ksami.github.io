@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2015-01-24 16:00:00
 title: Hackathon
 tags: [programming, hackathon, hacknroll2015]
 ---

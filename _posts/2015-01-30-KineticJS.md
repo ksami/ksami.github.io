@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2015-01-30 13:00:00
 title: KineticJS
 tags: [muddy, KineticJS, javascript]
 ---

@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2015-01-28 20:00:00
 title: HTML Chatbox
 tags: [muddy, programming, javascript, JQuery]
 ---

@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2015-01-30 22:00:00
 title: HTML5 Canvas Focus
 tags: [muddy, HTML5, canvas, javascript, jquery, KineticJS]
 ---
