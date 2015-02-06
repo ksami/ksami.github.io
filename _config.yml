@@ -11,6 +11,14 @@ description: student
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars1.githubusercontent.com/u/2187904?v=3&s=96
 
+# Set default layout for all files in _posts to post
+defaults:
+  scope:
+    path: "_posts"
+  values:
+    layout: "post"
+
+
 #
 # Flags below are optional
 #
@@ -51,7 +59,7 @@ baseurl: ""
 
 markdown: redcarpet
 highlighter: pygments
-permalink: /:title/
+#permalink: /:title/
 
 # The release of Jekyll Now that you're using
 version: v1.0.0
