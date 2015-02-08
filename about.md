@@ -9,7 +9,7 @@ Student
 ### More Information
 
 NUS Computer Engineering Year 7/2
-Aspiring Modifier
+Aspiring Modifier and Coder
 
 ### Contact me
 
