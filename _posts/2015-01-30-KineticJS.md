@@ -14,7 +14,7 @@ Documentation for KineticJS has also been mirrored over at [AgaveStorm].
 ### Structure
 The structure of KineticJS is actually quite logical and easy to visualise. There is the Stage, Layers, and Images, Sprites, Shapes which I will group under Elements.
 
-![layers](../images/layers.png)  
+![layers](../../../images/layers.png)  
 <span class="caption">Layers</span>
 
 #### Stage

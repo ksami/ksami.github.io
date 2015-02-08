@@ -22,7 +22,7 @@ Notes for anyone who wants to go for a hackathon (and for my future reference...
 **5. Have fun**
     It's a hackathon come on!
 
-<img src="../images/ken-idle.gif" height="120px">
+<img src="../../../images/ken-idle.gif" height="120px">
 
 Reference: ksami, 2-time participant and fail-to-submit-er of Hack&Roll
 

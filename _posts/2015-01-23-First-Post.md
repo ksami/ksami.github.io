@@ -106,15 +106,15 @@ example demonstrated using this post's contents table
 
 #### <a name="images"></a>Images
 ```
-![Alt-text](../images/jekyll-logo.png)  
+![Alt-text](../../../images/jekyll-logo.png)  
 ![Alt-text][Image link]  
 
-[Image link]: ../images/jekyll-logo.png
+[Image link]: ../../../images/jekyll-logo.png
 ```
-![Alt-text](../images/jekyll-logo.png)  
+![Alt-text](../../../images/jekyll-logo.png)  
 ![Alt-text][Image link]  
 
-[Image link]: ../images/jekyll-logo.png
+[Image link]: ../../../images/jekyll-logo.png
 
 
 #### <a name="code"></a>Code

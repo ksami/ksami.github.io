@@ -17,7 +17,7 @@ Drawn by the challenge of installing a supposedly difficult-to-install OS and th
 
 Works pretty well so far and looks, well, pretty.
 
-![Arch](../images/arch.png) ![Arch-busy](../images/arch-busy.png)
+![Arch](../../../images/arch.png) ![Arch-busy](../../../images/arch-busy.png)
 
 If you are interested in my config files they're over [here](https://github.com/ksami/dotfiles).  
 The guide I followed is [here](http://dwheelerau.com/2014/07/25/install-arch-linux-on-virtualbox-the-nuts-and-bolts-pt1/).
