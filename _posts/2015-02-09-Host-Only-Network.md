@@ -5,7 +5,11 @@ title: Host-Only Network
 tags: [Arch, Linux, network, VirtualBox, VM, Windows]
 ---
 
+#### Adventuring with my Arch VM Part 1!
+
 A host-only network can be set up between the VM running in VirtualBox and the host machine for communication solely between these two. This is separate from the NAT already configured by VirtualBox for internet access to your VM. My setup is a Win8 host running ArchLinux.
+
+---
 
 Firstly, in VirtualBox Manager, go to your machine's settings > Network > Adapter 2 and enable it as a host-only network adapter.
 
