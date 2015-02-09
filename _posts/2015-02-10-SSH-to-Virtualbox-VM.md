@@ -5,11 +5,11 @@ title: SSH to VirtualBox VM
 tags: [Arch, Linux, network, VirtualBox, VM, Windows, SSH]
 ---
 
-#### Adventuring with my Arch VM Part 2!
+#### Adventuring with my Arch VM Part 2
 
 Setting up SSH access between your VM and host allows for control of the VM from the host itself. Could be useful for stuff like getting familiar with SSH, cryptography and hacking. I use SSH so I can continue working from my Windows environment but use Linux tools, eg. Meteor only runs on Linux. My setup is ArchLinux VM in VirtualBox on Win8 host and I use Cygwin on Windows.
 
-Note: This post is on SSH and is not limited to VMs, VirtualBox, Linux or Windows; eg. Github uses SSH to authenticate users. (More on Github and version control another time.)
+__Note__: This post is on SSH and is not limited to VMs, VirtualBox, Linux or Windows; eg. Github uses SSH to authenticate users. (More on Github and version control another time.)
 
 There are two parts to security in SSH, the public key and the private key, and they go hand-in-hand. If you are interested to learn more, search for public key cryptography. More importantly, the private key is and should be kept private ie. not for anyone else but you. Please keep in mind the distinction between the public and private keys.
 
