@@ -11,12 +11,6 @@ description: student
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars1.githubusercontent.com/u/2187904?v=3&s=96
 
-# Set default layout for all files in _posts to post
-defaults:
-  scope:
-    path: "_posts"
-  values:
-    layout: "post"
 
 
 #
