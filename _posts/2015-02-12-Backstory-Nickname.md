@@ -28,7 +28,7 @@ Out of the blue, "ksami" clicked. I was really pleased that I had actually found
 
 ---
 
-Today, I shall finally reveal how it sounds in my head! *\*Warning, Unicode ahead*\*
+Today, I shall finally reveal how it sounds in my head! *\*Warning, Unicode ahead\**
 
 `/kʰsɑmi/` (based on [IPA](http://en.wikipedia.org/wiki/International_Phonetic_Alphabet))
 
