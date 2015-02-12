@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2015-02-13 00:01:00
+date: 2015-02-12 22:00:00
 title: Samba Fileserver
 tags: [Arch, Linux, network, VirtualBox, VM, Windows, Samba]
 ---
