@@ -6,7 +6,7 @@ tags: [programming, Javascript]
 ---
 #### Javascript Objects - Part 2
 
-Continued from [Part 1 - Objects and JSON](http://ksami.github.io/2015/02/15/Objects-and-JSON.html)
+Continued from [Part 1 - Objects and JSON](http://ksami.github.io/2015/02/15/Objects-and-JSON-Javascript.html)
 
 Following from the previous example, let's say we are only interested in the actions a user can take
 
