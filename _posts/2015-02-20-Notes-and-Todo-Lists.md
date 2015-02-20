@@ -12,7 +12,7 @@ My preference on the other hand is towards ubiquitous capture. According to this
 
 This way, anytime I think of something interesting to do or a solution for a problem, I immediately note it down, no matter how trivial the idea may be; the thinking can come later.
 
-I also prefer my notes to be purely text; I have no need for multimedia in my notes and prefer to dictate my own format for my notes. As such, I end up with one text file for urgent todo, one for not-so-urgent todo, one for things to do if bored (currently). Whenever I think of something I'll immediately add it to one of these 3 lists.
+I also prefer my notes to be purely text; I have no need for multimedia in my notes and prefer to dictate my own format for my notes. As such, I end up with one text file for urgent todo, one for not-so-urgent todo, one for things to do if bored (currently at 62 items with only about 10 of them completed). Whenever I think of something I'll immediately add it to one of these 3 lists.
 
 He's a user of [Evernote](http://www.evernote.com), a popular note-taking application for text and multimedia synced to the cloud so it's accessible from your phone or computer. He loves how he can attach pictures, links and organise his notes into categorised notebooks. He has a table in an Evernote note he uses for his weekly todo lists among others.
 
