@@ -1,9 +1,9 @@
------
+---
 layout: post
 date: 20-02-2015 18:34:00
 title: Todo Lists and Note-taking
-tags: [ productivity, notes, todo, Simplenote, Evernote ]
------
+tags: [productivity, notes, todo, Simplenote, Evernote]
+---
 
 The other day I was discussing with my friend about organising todo lists.  His daily routine begins with a todo list organised into sections of the day. He creates these lists the day before and at the start of the week. On month-end, he reviews items he did or did not accomplish and plans accordingly for the future months.
 
