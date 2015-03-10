@@ -21,6 +21,6 @@ Proof.
 ```
 <caption>I'm not sure what's going on here</caption>
 
-Coq is unlike any programming language I've learnt so far. As I've heard, Coq belongs to a category called functional programming languages which lets you use functions as though they were objects (?); perhaps something like function pointers in C/C++.
+Coq is unlike any programming language I've learnt so far. As I've heard, Coq belongs to a category called functional programming languages which lets you use functions as though they were objects (?); perhaps something like function pointers in C/C++. Also, the functional programming style has no side effects ie. programs are purely functions which map input to output, exactly like how mathematical functions are.
 
 So, until next time when I'm not so confused...
