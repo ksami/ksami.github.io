@@ -4,9 +4,10 @@ date: 2015-04-23 16:44:43
 title: Multicore
 tags: [multicore, notes]
 ---
-Notes for multicore computing. Midterm week so there'll be more of these posts coming up!
+Notes for multicore computing. Midterm week so there will be more of these posts coming up!
 
 Some have been translated from Korean as I struggle through my lecture notes so remember to cross-reference.
+
 -----
 
 
