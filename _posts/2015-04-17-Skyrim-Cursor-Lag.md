@@ -2,7 +2,7 @@
 layout: post
 date: 2015-04-17 17:33:06
 title: Skyrim Cursor Lag
-tags: [Skyrim]
+tags: [Skyrim, games]
 ---
 Just a quick post on a Skyrim fix I've found. In Skyrim for PC, many people have experienced lag with the mouse and the most popular answer is to add `IPresentInterval=0` and `bMouseAcceleration=0` to your `SkyrimPrefs.ini`. It didn't work for me though no matter how many times I deleted, retyped that line, saved the file and restarted the game.
 
