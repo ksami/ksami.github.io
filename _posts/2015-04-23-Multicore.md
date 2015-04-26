@@ -85,7 +85,7 @@ Some have been translated from Korean as I struggle through my lecture notes so 
 
 ### Data
 - Bit: binary digit (1 or 0)
-  - encoded in electronic circuits as a change in voltage
+      + encoded in electronic circuits as a change in voltage
 - Byte: 8 bits
 
 ### Hardware and Software
@@ -98,7 +98,7 @@ Some have been translated from Korean as I struggle through my lecture notes so 
 - Binary (base 2), Octal (base 8), Decimal (base 10), Hexadecimal (base 16)
 - Conversions between the different number systems
 - Signed and unsigned numbers
-  - 2's complement representation: flip all bits and add 1
+      + 2's complement representation: flip all bits and add 1
 
 ### Modulo
 - Divide and take remainder
@@ -119,13 +119,13 @@ Some have been translated from Korean as I struggle through my lecture notes so 
 - Made of transistors
 - Combinations of them implement all Boolean operations
 - Gate or propagation delay exists
-  - Time taken for signal/changes to travel/propagate down to later stages of the circuit
+      + Time taken for signal/changes to travel/propagate down to later stages of the circuit
 - Tristate buffer
-  - Acts as a switch, output is input only if Enable is 1
+      + Acts as a switch, output is input only if Enable is 1
 - Multiplexer (MUX)
-  - Selects/forwards one of many inputs to the output
+      + Selects/forwards one of many inputs to the output
 - Decoder
-  - Splits input into many outputs
+      + Splits input into many outputs
 
 ### Combinational Logic circuit
 - Logic of the circuit depends solely on logic gates
@@ -190,15 +190,15 @@ Some have been translated from Korean as I struggle through my lecture notes so 
 
 ### IEEE Floating Point Representation
 - Exponent E has to be biased
-  - E has to be signed
-  - If E is in 2's complement it would be difficult to compare
-  - When encoding add minimum value of E so encoded E is always positive
+      + E has to be signed
+      + If E is in 2's complement it would be difficult to compare
+      + When encoding add minimum value of E so encoded E is always positive
 - Exponent E = 111..., fraction F = 000...
-  - Represents infinity
-  - Overflow
+      + Represents infinity
+      + Overflow
 - Exponent E = 111..., fraction F not 000...
-  - Represents NaN (Not a Number)
-  - No numeric value can be determined
+      + Represents NaN (Not a Number)
+      + No numeric value can be determined
 - As if computed with inifinite precision then rounded
 
 #### Precision
@@ -218,13 +218,13 @@ Some have been translated from Korean as I struggle through my lecture notes so 
 
 ### Floating Point Arithmetic
 - Add is **NOT** associative ie. (a+b)+c != a+(b+c)
-  - Due to overflow and inexactness of rounding
+      + Due to overflow and inexactness of rounding
 
 ### Fused Multiply-Add
 - Multiply and add operation together in one hardware unit
 - Matrix dot product uses many multiply and add operations
 - Better precision than doing two seperate operations
-  - One rounding error compared to two
+      + One rounding error compared to two
 
 
 =============
@@ -233,10 +233,10 @@ Some have been translated from Korean as I struggle through my lecture notes so 
 
 ### Von Neumann Architecture
 - Four basic hardware components
-  - Input devices
-  - Output devices
-  - Main memory
-  - Central Processing Unit (CPU)
+      + Input devices
+      + Output devices
+      + Main memory
+      + Central Processing Unit (CPU)
 
 ### CPU
 - Carries out the instructions of a computer program
@@ -251,48 +251,48 @@ Some have been translated from Korean as I struggle through my lecture notes so 
 ### Dependences
 - Any ordering of execution that obeys all dependeces will produce the same result as the original program
 - Flow dependence
-  - True dependence: cannot be removed
-  - Read after Write
+    + True dependence: cannot be removed
+    + Read after Write
 - Anti dependence
-  - False dependence: can be removed
-  - Write after Read
+    + False dependence: can be removed
+    + Write after Read
 - Output dependence
-  - False dependence: can be removed
-  - Write after Write
+    + False dependence: can be removed
+    + Write after Write
 - Input not-really-a-dependence
-  - For caches
-  - Read after Read
+    + For caches
+    + Read after Read
 
 ### Pipelined Processors
 - Increases instruction throughput ie. no. of instructions executed per CPU clock cycle
 - Typical five-stage pipline:
-  - IF: instruction fetch
-  - ID: instruction decode and register fetch
-  - EX: execute
-  - MEM: memory access
-  - WB: register write back
+    + IF: instruction fetch
+    + ID: instruction decode and register fetch
+    + EX: execute
+    + MEM: memory access
+    + WB: register write back
 
 #### Pipline hazards
 - Occur when the next instruction does not execute in the next clock cycle
 - Data hazards
-  - Result needed before it is available
-  - To resolve:
-    - Stall the pipeline/insert a bubble of no operation
-    - Data forwarding
+    + Result needed before it is available
+    + To resolve:
+        * Stall the pipeline/insert a bubble of no operation
+        * Data forwarding
 - Structural hazards
-  - Hardware component required by more than one instruction at the same time
-  - Resource conflict eg. single memory unit accessed in both IF and MEM
-  - To resolve:
-    - Stall the pipeline
+    + Hardware component required by more than one instruction at the same time
+    + Resource conflict eg. single memory unit accessed in both IF and MEM
+    + To resolve:
+        * Stall the pipeline
 - Control hazards
-  - Branches in instruction flow
-  - Branch target unknown until instruction reaches MEM stage
-  - Instructions fetched after branch should not execute since control has been diverted
-  - To resolve:
-    - Delay branch scheduling instructions into branch delay slots
-    - Not having branches at all
-    - Stalling
-    - Branch predictors
+    + Branches in instruction flow
+    + Branch target unknown until instruction reaches MEM stage
+    + Instructions fetched after branch should not execute since control has been diverted
+    + To resolve:
+        * Delay branch scheduling instructions into branch delay slots
+        * Not having branches at all
+        * Stalling
+        * Branch predictors
 
 ### In-order Execution
 - Fetch and decode next instruction
@@ -322,11 +322,11 @@ Some have been translated from Korean as I struggle through my lecture notes so 
 
 ### Superscalar Processors
 - Dynamically issue multiple instructions in each clock cycle
-  - Fetches and decodes several instructions at a time
-  - In-order or out-of-order issue
--Exploit Instruction Level Parallelism (ILP)
-  - Instructions that can be executed simultaneously
-  - Limited amount of ILP in an application
+    + Fetches and decodes several instructions at a time
+    + In-order or out-of-order issue
+- Exploit Instruction Level Parallelism (ILP)
+    + Instructions that can be executed simultaneously
+    + Limited amount of ILP in an application
 
 ### VLIW Processors
 - Static instruction scheduling by compiler

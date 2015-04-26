@@ -18,13 +18,13 @@ Some have been translated from Korean as I struggle through my lecture notes so 
 
 ### Principle of Locality
 - Temporal Locality
-    - Reuse of data/instructions in the near future
-    - Data: Same variable access in each iteration in for loop
-    - Instructions: Cycling through for loop
+    + Reuse of data/instructions in the near future
+    + Data: Same variable access in each iteration in for loop
+    + Instructions: Cycling through for loop
 - Spatial Locality
-    - Data/instructions in locations near to each other likely to be used together
-    - Data: Array elements accessed in succession
-    - Instructions: Referenced in sequence
+    + Data/instructions in locations near to each other likely to be used together
+    + Data: Array elements accessed in succession
+    + Instructions: Referenced in sequence
 
 ### Memory Hierarchies
 - Hierarchical arrangement of storage to exploit locality of reference
@@ -33,8 +33,8 @@ Some have been translated from Korean as I struggle through my lecture notes so 
 ### Caching
 - Exploit temporal and spatial locality
 - Cache block = cache line
-    - Basic unit of cache storage
-    - Multiple bytes/words (Intel Haswell: 64 bytes/line)
+    + Basic unit of cache storage
+    + Multiple bytes/words (Intel Haswell: 64 bytes/line)
 - Cache hit: block requested and found in cache
 - Cache miss: block requested but not in cache, requires fetching from memory
 
@@ -67,15 +67,15 @@ Some have been translated from Korean as I struggle through my lecture notes so 
 
 ### Replacement Policies
 - Least Recently Used (LRU)
-    - Replace block that has not been used for the longest time
-    - Need to maintain LRU statistics for each cache line in a set
-    - Costly, time consuming read/modify/write cycle to maintain set state on a cache access
+    + Replace block that has not been used for the longest time
+    + Need to maintain LRU statistics for each cache line in a set
+    + Costly, time consuming read/modify/write cycle to maintain set state on a cache access
 - Pseudo LRU
-    - Binary decision tree to keep track of LRU statistics
-    - One write cycle to update stats on a hit
-    - One read cycle during line replacement
+    + Binary decision tree to keep track of LRU statistics
+    + One write cycle to update stats on a hit
+    + One read cycle during line replacement
 - First in, First out (FIFO)
-    - Replace block that has been in set for longest time
+    + Replace block that has been in set for longest time
 - Random
 
 ### Write Policies
@@ -83,19 +83,19 @@ Some have been translated from Korean as I struggle through my lecture notes so 
 
 #### On cache hit
 - Write through
-    - Both block in cache and lower level memory are modified
-    - Simple to implement
-    - Lower level memory always consistent with cache
+    + Both block in cache and lower level memory are modified
+    + Simple to implement
+    + Lower level memory always consistent with cache
 - Write back
-    - Block in cache is modified, only written back to lower level memory when replaced, uses dirty bit
-    - Harder to implement
-    - Lower level memory not always consistent with cache
+    + Block in cache is modified, only written back to lower level memory when replaced, uses dirty bit
+    + Harder to implement
+    + Lower level memory not always consistent with cache
 
 #### On cache miss
 - Write allocate
-    - Block is loaded into the cache
+    + Block is loaded into the cache
 - No write allocate
-    - Block is directly modified in lower level memory and not loaded into cache
+    + Block is directly modified in lower level memory and not loaded into cache
 
 ### Non-blocking/Lockup-free caches
 - Continues to supply cache hits during a miss instead of being blocked waiting for lower level memory
@@ -104,12 +104,12 @@ Some have been translated from Korean as I struggle through my lecture notes so 
 
 ### Cache Performance Metrics
 - Miss rate
-    - Fraction of memory references not found in cache
+    + Fraction of memory references not found in cache
 - Hit time
-    - Time required to deliver a line in cache to the processor
-    - Includes time to determine if line is in cache
+    + Time required to deliver a line in cache to the processor
+    + Includes time to determine if line is in cache
 - Miss penalty
-    - Additional time required due to miss
+    + Additional time required due to miss
 
 
 ### Virtual Memory
@@ -218,8 +218,8 @@ Some have been translated from Korean as I struggle through my lecture notes so 
     + Horizontal waste: In a particular cycle, not all issue slots are being used
         * Context switch among threads every cycle
         * Context switch among threads every few cycles on data hazards, cache misses etc.
-    - Simultaneous Multi-threading
-        + Selects instructions for execution from all threads on each cycle to remove horizontal and vertical waste
+    + Simultaneous Multi-threading
+        * Selects instructions for execution from all threads on each cycle to remove horizontal and vertical waste
 
 ### Cache Coherence
 - Private caches in a multiprocessor system results in copies of a variable present in multiple places
