@@ -49,10 +49,12 @@ Credits to [Markdown Cheatsheet]
 ```
 *italics* or _italics_  
 **bold** or __bold__  
+***bold italics*** or ___bold italics___  
 ~~strikethrough~~
 ```
 *italics* or _italics_  
 **bold** or __bold__  
+***bold italics*** or ___bold italics___  
 ~~strikethrough~~
 
 
@@ -108,11 +110,13 @@ example demonstrated using this post's contents table
 ```
 ![Alt-text](../../../images/jekyll-logo.png)  
 ![Alt-text][Image link]  
+<span class="caption">Caption style specified using css</span>  
 
 [Image link]: ../../../images/jekyll-logo.png
 ```
 ![Alt-text](../../../images/jekyll-logo.png)  
 ![Alt-text][Image link]  
+<span class="caption">Caption style specified using css</span>  
 
 [Image link]: ../../../images/jekyll-logo.png
 
