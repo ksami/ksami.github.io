@@ -15,7 +15,7 @@ The problem with UNET now though is that since it is so new, documentation is th
 
 ---
 
-Another thing I've been working on is learning how to use Wordpress, the content management system (CMS) not the blogging site. Just curious why/how it is such a popular CMS. From what I've seen so far, it is perhaps more user-friendly for those who don't code or are unfamiliar with servers and the like.
+Another thing I've been working on is learning how to use [Wordpress](https://wordpress.org/), the content management system (CMS) not the blogging site. Just curious why/how it is such a popular CMS. From what I've seen so far, it is perhaps more user-friendly for those who don't code or are unfamiliar with servers and the like.
 
 For me though, I find it really hard to figure out the workflow Wordpress uses and how to do certain things which I am used to when having full SSH access. Also, Wordpress, probably to make it easier to use, seems really restrictive; any editing of code is also really messy with PHP strewn everywhere and split between many different files.
 
