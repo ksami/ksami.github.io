@@ -18,9 +18,11 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
+$robotoSlab: "Roboto Slab", serif;
 
 // Mobile breakpoints
 @mixin mobile {
