@@ -20,13 +20,13 @@ I first came up with a toy bot that returns a random number to get used to the [
 Once I got used to this workflow, I refactored the entire code for the toy bot to support a structure where steps 2 and 3 can be easily switched out. Code is on my github repo [telegrambot](https://github.com/ksami/telegrambot).
 
 Bots:
-[Meetup Bot](http://telegram.me/meetup_bot)
-[ksami_bot (toy bot)](http://telegram.me/ksami_bot)
+- [Meetup Bot](http://telegram.me/meetup_bot)
+- [ksami_bot (toy bot)](http://telegram.me/ksami_bot)
 
-(Bonus Stickers!)
+(Bonus Stickers!)  
 Stickers:
-[Crayon Pop](https://telegram.me/addstickers/CrayonPop)
-[AoA Mina](https://telegram.me/addstickers/AoaMina)
-[SNSD Taeyeon](https://telegram.me/addstickers/snsdtaeyeon)
-[One Piece - Chopper](https://telegram.me/addstickers/OnepieceChopper)
-[ksami](https://telegram.me/addstickers/ksami)
+- [Crayon Pop](https://telegram.me/addstickers/CrayonPop)
+- [AoA Mina](https://telegram.me/addstickers/AoaMina)
+- [SNSD Taeyeon](https://telegram.me/addstickers/snsdtaeyeon)
+- [One Piece - Chopper](https://telegram.me/addstickers/OnepieceChopper)
+- [ksami](https://telegram.me/addstickers/ksami)
