@@ -8,9 +8,9 @@ Student
 
 ### More Information
 
-NUS Computer Engineering Year 7/2
+NUS Computer Engineering Final Year
 Aspiring Modifier and Coder
-Personalisation, Customisation and Anyothersation
+Personalisation, Customisation and Any-other-sation
 
 ### Contact me
 

@@ -52,7 +52,7 @@ baseurl: ""
 paginate: 5
 
 # Path to pages
-paginate_path: "/page=:num"
+paginate_path: ":num"
 
 #
 # !! You don't need to change any of the configuration flags below !!
