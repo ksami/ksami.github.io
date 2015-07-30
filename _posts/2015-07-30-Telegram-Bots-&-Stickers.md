@@ -4,7 +4,7 @@ date: 2015-07-30 14:36:57
 title: Telegram Bots & Stickers
 tags: [Telegram]
 ---
-TL;DR: Links to bots and stickers at the bottom of this post.
+**TL;DR**: Links to bots and stickers at the bottom of this post.
 
 
 [Telegram](https://telegram.org/) is a chatting app similar to Whatsapp but synced between your phone, tablet, laptop and whatever other device you have.
