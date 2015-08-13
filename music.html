@@ -6,7 +6,8 @@ description: "Music"
 <!-- post -->
 <div class="posts">
   {% for post in paginator.posts %}
-    {% if post.tags contains "games" %}
+    {{ post.tags }}
+    {% if post.tags contains 'games' %}
       <article class="post">    
         
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
