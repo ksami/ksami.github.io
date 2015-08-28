@@ -24,7 +24,7 @@ Feel has changed slightly away from melancholic towards the happier side of thin
 - Drumkit
 
 ### Screenshots
-[![week3](../images/music-wk3.png)](../images/music-wk3.png)
+[![week3](../../../images/music-wk3.png)](../../../images/music-wk3.png)
 
 ### Misc
 I've chosen a title based on what the track sounds like now and what I picture when listening to it. Drums doesn't seem to be right for some reason; will have to rework it.
