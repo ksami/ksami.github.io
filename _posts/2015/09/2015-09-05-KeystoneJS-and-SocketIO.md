@@ -49,16 +49,19 @@ exports.handleSocketio = function(req, res, next) {
 ```
 
 Load the custom middleware by adding the following in `./routes/index.js`
+
 ```js
 keystone.pre('routes', middleware.handleSocketio);
 ```
 
 Load `/socket.io/socket.io.js` on the __client's side__ by adding a script tag
+
 ```html
 <script src="/socket.io/socket.io.js"></script>
 ```
 
 Lastly, initialise Socket.IO on the __client's side__ by adding
+
 ```js
 var socket = io();
 ```
