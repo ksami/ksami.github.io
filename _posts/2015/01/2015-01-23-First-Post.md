@@ -50,12 +50,12 @@ Credits to [Markdown Cheatsheet]
 *italics* or _italics_  
 **bold** or __bold__  
 ***bold italics*** or ___bold italics___  
-~~strikethrough~~
+<s>strikethrough</s>
 ```
 *italics* or _italics_  
 **bold** or __bold__  
 ***bold italics*** or ___bold italics___  
-~~strikethrough~~
+<s>strikethrough</s>
 
 
 #### <a name="lists"></a>Lists
