@@ -9,7 +9,7 @@ __EDIT__ 2015/09/16: I realised adding event listeners in middleware is not a sm
 
 To integrate [Socket.IO](http://socket.io/) with [KeystoneJS](http://keystonejs.com/) requires some work but it can be done, at least using the packages `keystone 0.3.14` and `socket.io 1.3.6` from `npm`.
 
-The steps below assume you have followed the [Getting Started](http://keystonejs.com/docs/getting-started/) guide and have a folder structure as stated in the guide. `./web.js` is the entry point for the app, `./routes/index.js` is the route controller for index and `./templates/views/index.jade` is the jade template rendered for index.
+The steps below assume you have followed the [Getting Started](http://keystonejs.com/docs/getting-started/) guide and have a folder structure as stated in the guide. `./web.js` is the entry point for the app, `./routes/views/index.js` is the route controller for index and `./templates/views/index.jade` is the jade template rendered for index.
 
 ---
 
