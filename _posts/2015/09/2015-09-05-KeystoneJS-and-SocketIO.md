@@ -55,7 +55,7 @@ keystone.start({
 });
 ```
 
-Set the session variable in `./routes/index.js` by adding into the `module.exports` function
+Set the session variable in `./routes/views/index.js` by adding into the `module.exports` function
 
 ```js
 req.session.message = 'Hello World';
