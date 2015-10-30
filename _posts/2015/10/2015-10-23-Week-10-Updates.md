@@ -9,9 +9,12 @@ tags: [music]
 
 
 ## Downloads
-[Blue Ocean - Mix 2](http://www.mediafire.com/download/zcaoa3fusko1z4k/blue-ocean-mix2.wav)
+[Blue Ocean - Mix 2](http://www.mediafire.com/download/zcaoa3fusko1z4k/blue-ocean-mix2.wav)  
 [Blue Ocean - Mix 1](http://www.mediafire.com/download/cg49bu2qkucr9qf/blue-ocean-mix1.wav)
 
+### Alternate Links
+[Blue Ocean - Mix 2](https://www.dropbox.com/s/gi9idorw98nkl04/blue-ocean-mix2.wav?dl=0)  
+[Blue Ocean - Mix 1](https://www.dropbox.com/s/eqjjmpdti6byrzd/blue-ocean-mix1.wav?dl=0)
 
 ## Screenshot
 [![week10](../../../images/music-wk10.png)](../../../images/music-wk10.png)
