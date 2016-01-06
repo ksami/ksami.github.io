@@ -45,7 +45,7 @@ describe('isNumeric()', function(){
 
 And the output from Mocha:
 
-![mocha output](./mocha.png)
+![mocha output](../mocha.png)
 
 Or for more fun, Mocha can also format its output in other formats, what Mocha calls reporters. For example, from [Mocha's page](https://mochajs.org/), the nyan reporter produces:
 
