@@ -143,4 +143,4 @@ describe('Input Check', function(){
 
 To run the tests, run `mocha` in the top-level directory, the directory where `numberChecker.js` is, from your terminal. `mocha` will search for the folder named `test` and run all tests in that folder.
 
-In the next post, I will talk about using Mocha with [Chai](http://chaijs.com/), an assertion library that will make it easier to test for things other than simple true/false values.
+In the next post, I will talk about using Mocha with [Chai](http://chaijs.com/), an assertion library that will make it easier to test for things other than simple true/false values. [Next post](2015/01/07/Testing-Javascript-with-Mocha-and-Chai.html)
