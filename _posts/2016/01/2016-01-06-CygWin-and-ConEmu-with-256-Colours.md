@@ -17,7 +17,7 @@ In that same document, ConEmu's author, Maximus5, an experimental approach using
 ##### MinTTY
 Firstly, MinTTY must be configured to display 256 colours. This can be done by going to MinTTY's Options > Terminal and changing Type to `xterm-256color`.
 
-![MinTTY Options](../../../images/2016-01-06-options.png)
+![MinTTY Options](/images/2016-01-06-options.png)
 
 You can test if 256 colours has been enabled by using the command:
 
@@ -35,7 +35,7 @@ Next will be to configure ConEmu to launch MinTTY. Under ConEmu's Settings > Sta
 set CHERE_INVOKING=1 & \windows\path\to\mintty.exe -  -new_console:d:\windows\path\to\home\directory
 ```
 
-![ConEmu settings](../../../images/2016-01-06-conemu-tasks.png)
+![ConEmu settings](/images/2016-01-06-conemu-tasks.png)
 
 Finally, go to the properties of the ConEmu shortcut by right-clicking the shortcut, and under Shortcut > Target, append `/cmd Your Task Name` to the path. For example, if under Target, the path to my ConEmu64.exe is `"D:\ConEmu\ConEmu64.exe"` and my task name is `{Zsh::CygWin MinTTY}`, then I would change Target to 
 
@@ -43,10 +43,10 @@ Finally, go to the properties of the ConEmu shortcut by right-clicking the short
 "D:\ConEmu\ConEmu64.exe" /cmd {Zsh::CygWin MinTTY}
 ```
 
-![ConEmu properties](../../../images/2016-01-06-conemu-properties.png)
+![ConEmu properties](/images/2016-01-06-conemu-properties.png)
 
 <br><br>
 
 And that's it! Enjoy your new 256 colour terminal!
 
-[![Desktop](../../../images/2016-01-06-desktop.png)](../../../images/2016-01-06-desktop.png)
+[![Desktop](/images/2016-01-06-desktop.png)](/images/2016-01-06-desktop.png)

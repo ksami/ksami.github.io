@@ -45,7 +45,7 @@ describe('isNumeric()', function(){
 
 And the output from Mocha:
 
-![mocha output](../../../images/2015-12-26-mocha.png)
+![mocha output](/images/2015-12-26-mocha.png)
 
 Or for more fun, Mocha can also format its output in other formats, what Mocha calls reporters. For example, from [Mocha's page](https://mochajs.org/), the nyan reporter produces:
 
@@ -143,4 +143,4 @@ describe('Input Check', function(){
 
 To run the tests, run `mocha` in the top-level directory, the directory where `numberChecker.js` is, from your terminal. `mocha` will search for the folder named `test` and run all tests in that folder.
 
-In the next post, I will talk about using Mocha with [Chai](http://chaijs.com/), an assertion library that will make it easier to test for things other than simple true/false values. [Next post](/2015/01/07/Testing-Javascript-with-Mocha-and-Chai.html)
+In the next post, I will talk about using Mocha with [Chai](http://chaijs.com/), an assertion library that will make it easier to test for things other than simple true/false values. [Next post](/2016/01/07/Testing-Javascript-with-Mocha-and-Chai.html)

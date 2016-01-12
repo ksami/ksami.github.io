@@ -5,7 +5,7 @@ title: Testing Javascript with Mocha and Chai
 tags: [testing, Javascript, Node.js, Mocha, Chai]
 ---
 
-Continuation from the [previous post](../../../2015/12/26/Introduction-to-Testing-Javascript-using-Mocha.html).
+Continuation from the [previous post](/2015/12/26/Introduction-to-Testing-Javascript-using-Mocha.html).
 
 The basic pattern for tests as I've introduced in the previous post makes use of the `assert` module from Node.js and a boolean condition to test for, eg.
 
