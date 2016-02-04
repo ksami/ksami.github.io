@@ -55,6 +55,7 @@ paginate: 5
 paginate_path: ":num"
 
 timezone: Singapore
+future: true
 
 #
 # !! You don't need to change any of the configuration flags below !!
