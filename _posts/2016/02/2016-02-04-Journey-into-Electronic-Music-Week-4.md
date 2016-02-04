@@ -18,7 +18,7 @@ The rhythm sound was inspired by the short, plucked sounds in the beginning of [
 
 ![rhythm](/images/2016-02-04-subtractor-rhythm.png)
 
-I used a sawtooth waveform, a low-pass filter to take away the brightness and an ADSR envelope of |\\_ (0 attack, short delay and 0 sustain) for the short, plucky sound.
+I used a sawtooth waveform, a low-pass filter to take away the brightness and an ADSR envelope of \|\\_ (0 attack, short delay and 0 sustain) for the short, plucky sound.
 
 
 #### Bass
@@ -26,7 +26,7 @@ I used the bass synth from [Avicii - Levels](https://youtu.be/_ovdm2yX4MA?t=22s)
 
 ![bass](/images/2016-02-04-subtractor-bass.png)
 
-Starting with a sawtooth waveform lowered by 2 octaves from the default 4, I added a low-pass filter and used an ADSR envelope of |¯\\ (0 attack, full sustain, short release), the short release for simulating reverb. I also added an LFO on the oscillator with a triangle waveform, about 50% rate and 20% amount to give the bass the, for lack of a better description, fart-y sound.
+Starting with a sawtooth waveform lowered by 2 octaves from the default 4, I added a low-pass filter and used an ADSR envelope of \|¯\\ (0 attack, full sustain, short release), the short release for simulating reverb. I also added an LFO on the oscillator with a triangle waveform, about 50% rate and 20% amount to give the bass the, for lack of a better description, fart-y sound.
 
 
 #### Lead
