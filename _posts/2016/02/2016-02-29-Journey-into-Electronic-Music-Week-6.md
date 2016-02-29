@@ -8,7 +8,7 @@ tags: [music]
 ## Music Genealogy Project
 
 ### Swedish House Mafia
-Swedish House Mafia was a Swedish (duh) electronic music supergroup, its members are already successful in the music industry on their own, formed in 2008 and split in 2013.
+Swedish House Mafia was a Swedish (duh) electronic music supergroup, its members are already successful in the music industry on their own, formed in 2008 and split in 2013. Their influences include Daft Punk and Underworld.
 
 Some of their hits include "Save the World" and "Don't You Worry Child"; both of which I remember listening to quite often on the radio about 4-5 years ago and am quite glad to finally know the title and artist of the song.
 
