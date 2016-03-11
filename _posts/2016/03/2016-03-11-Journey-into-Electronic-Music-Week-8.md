@@ -19,4 +19,6 @@ This is a sample of my voice looped to sustain as long as the key is depressed.
 
 <iframe width="100%" height="160" src="https://clyp.it/scxwks5d/widget" frameborder="0"></iframe>
 
+![nnxt-voice](/images/2016-03-11-nnxt-voice.png)
+
 An arrangement of samples recorded in a kitchen.
