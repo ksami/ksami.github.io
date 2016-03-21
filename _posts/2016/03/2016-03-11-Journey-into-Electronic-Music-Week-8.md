@@ -7,7 +7,9 @@ tags: [music]
 
 ## Sampler Patches
 
-I'm not sure how to do the first part for mapping the bamboo marimba multisample; I'll update this section with it once I'm done.
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ALcvkft-tVQ?rel=0" frameborder="0" allowfullscreen></iframe>
+
+Bamboo Marimba samples mapped to keys using NN-XT.
 
 ---
 

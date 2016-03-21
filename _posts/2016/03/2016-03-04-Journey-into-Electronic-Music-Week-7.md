@@ -6,34 +6,17 @@ tags: [music]
 ---
 
 ## Thor Patches
+Two kinds of oscillators were used, the wavetable oscillator and the analog oscillator.
+
+### Wavetable Oscillator
 
 <iframe width="100%" height="160" src="https://clyp.it/d00ng4fs/widget" frameborder="0"></iframe>
 ![brass-ensemble](/images/2016-03-04-brass-ensemble.png)
 
 <br>
 
-<iframe width="100%" height="160" src="https://clyp.it/fbofre4q/widget" frameborder="0"></iframe>
-![get-back-here](/images/2016-03-04-get-back-here.png)
-
-<br>
-
-<iframe width="100%" height="160" src="https://clyp.it/thhwnj4f/widget" frameborder="0"></iframe>
-![incoherent-robot](/images/2016-03-04-incoherent-robot.png)
-
-<br>
-
 <iframe width="100%" height="160" src="https://clyp.it/2ngnjewx/widget" frameborder="0"></iframe>
 ![its-coming](/images/2016-03-04-its-coming.png)
-
-<br>
-
-<iframe width="100%" height="160" src="https://clyp.it/pfgybh0x/widget" frameborder="0"></iframe>
-![onoff](/images/2016-03-04-onoff.png)
-
-<br>
-
-<iframe width="100%" height="160" src="https://clyp.it/jsy3j4xp/widget" frameborder="0"></iframe>
-![onoff-drag](/images/2016-03-04-onoff-drag.png)
 
 <br>
 
@@ -47,11 +30,34 @@ tags: [music]
 
 <br>
 
-<iframe width="100%" height="160" src="https://clyp.it/5ph22jbh/widget" frameborder="0"></iframe>
-![stutter](/images/2016-03-04-stutter.png)
+<iframe width="100%" height="160" src="https://clyp.it/xpoksumd/widget" frameborder="0"></iframe>
+![wow-choir](/images/2016-03-04-wow-choir.png)
 
 <br>
 
-<iframe width="100%" height="160" src="https://clyp.it/xpoksumd/widget" frameborder="0"></iframe>
-![wow-choir](/images/2016-03-04-wow-choir.png)
+
+### Analog Oscillator
+
+<iframe width="100%" height="160" src="https://clyp.it/fbofre4q/widget" frameborder="0"></iframe>
+![get-back-here](/images/2016-03-04-get-back-here.png)
+
+<br>
+
+<iframe width="100%" height="160" src="https://clyp.it/thhwnj4f/widget" frameborder="0"></iframe>
+![incoherent-robot](/images/2016-03-04-incoherent-robot.png)
+
+<br>
+
+<iframe width="100%" height="160" src="https://clyp.it/pfgybh0x/widget" frameborder="0"></iframe>
+![onoff](/images/2016-03-04-onoff.png)
+
+<br>
+
+<iframe width="100%" height="160" src="https://clyp.it/jsy3j4xp/widget" frameborder="0"></iframe>
+![onoff-drag](/images/2016-03-04-onoff-drag.png)
+
+<br>
+
+<iframe width="100%" height="160" src="https://clyp.it/5ph22jbh/widget" frameborder="0"></iframe>
+![stutter](/images/2016-03-04-stutter.png)
 
