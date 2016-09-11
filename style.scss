@@ -295,6 +295,11 @@ code {
   background-color: $lightGray;
 }
 
+sup {
+  vertical-align: super,
+  font-size: 75%
+}
+
 .date {
   float: right;
   padding-top: 0.7em;
