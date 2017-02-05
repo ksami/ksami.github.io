@@ -12,13 +12,13 @@ description: "An archive of posts sorted by tag."
 <div id="tags">
   <ul class="tag-box">
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
-    {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+    {% capture this_word %}{{ tag_words[item] | strip_newlines | downcase }}{% endcapture %}
     <li style="{% if site.tags[this_word].size > 3 %}font-size: 20px{% endif %}"><a href="#{{ this_word | cgi_escape }}">{{ this_word }} <span>({{ site.tags[this_word].size }})</span></a></li>
   {% endunless %}{% endfor %}
   </ul>
 
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
-    {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+    {% capture this_word %}{{ tag_words[item] | strip_newlines | downcase }}{% endcapture %}
   <h2 id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
   <ul class="posts">
     {% for post in site.tags[this_word] %}{% if post.title != null %}
