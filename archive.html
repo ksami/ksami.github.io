@@ -1,0 +1,20 @@
+---
+layout: page
+title: Archive
+description: "An archive of posts sorted by date."
+---
+
+<div id="archive">
+  {% for post in site.posts %}
+    {% assign currentdate = post.date | date: "%B %Y" %}
+    {% if currentdate != date %}
+      {% unless forloop.first %}</ul>{% endunless %}
+      <h2 id="{{post.date | date: "%Y-%m"}}">{{ currentdate }}</h1>
+      <ul class="posts">
+      {% assign date = currentdate %}
+    {% endif %}
+      <li itemscope><span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <!-- <li><a href="{{ post.url }}">{{ post.title }}</a></li> -->
+    {% if forloop.last %}</ul>{% endif %}
+  {% endfor %}
+</div>
