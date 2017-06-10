@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2016-06-10 21:37:05
+date: 2017-06-10 21:37:05
 title: Cross-Origin Communication Between Windows
 tags: [web, javascript, cors]
 ---
