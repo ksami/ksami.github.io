@@ -4,18 +4,18 @@ layout: default
 <!-- post -->
 <div class="posts">
   {% for post in paginator.posts %}
-    <article class="post">    
+    <article class="post">
 
       <div class="date">
         {{ post.date | date: "%B %e, %Y" }}
       </div>
-      
+
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
-        {{ post.content | truncatewords:15 }}
+        {{ post.content | truncatewords:24 }}
       </div>
-      
+
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
